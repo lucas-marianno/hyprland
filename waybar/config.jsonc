@@ -16,14 +16,14 @@
     "modules-right": [
       "idle_inhibitor",
       "pulseaudio",
-      "network",
-      "temperature",
+      //"temperature",
       "battery",
+      "network",
+      "bluetooth",
       "clock"
         //"cpu",
         //"memory",
         //"hyprland/language",
-        //"bluetooth",
         //"battery#bat2",
     ],
     //Modules configuration
