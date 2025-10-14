@@ -6,9 +6,9 @@
 }
 
 window#waybar {
-    background: rgba(26, 27, 38, 1);
+    background: #181818;
     color: #c0caf5;
-    font-family: 
+    font-family:
         SpaceMono Nerd Font,
         feather;
     transition: background-color .5s;
@@ -18,16 +18,17 @@ window#waybar {
 .modules-center,
 .modules-right
 {
-    background: rgba(0, 0, 8, .7);
-    margin: 5px 10px;
+    background: #282828;
+    margin: 3px 10px;
     padding: 0 5px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .modules-left {
-    padding: 0;
+    padding: 0 10px;
 }
 .modules-center {
     padding: 0 10px;
+    background: transparent;
 }
 
 #clock,
@@ -38,6 +39,7 @@ window#waybar {
 #temperature,
 #backlight,
 #network,
+#bluetooth,
 #pulseaudio,
 #wireplumber,
 #custom-media,
@@ -48,8 +50,9 @@ window#waybar {
 #power-profiles-daemon,
 #language,
 #mpd {
-    padding: 0 10px;
-    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    border-radius: 6px;
 }
 
 #clock:hover,
@@ -60,6 +63,7 @@ window#waybar {
 #temperature:hover,
 #backlight:hover,
 #network:hover,
+#bluetooth:hover,
 #pulseaudio:hover,
 #wireplumber:hover,
 #custom-media:hover,
@@ -70,9 +74,9 @@ window#waybar {
 #power-profiles-daemon:hover,
 #language:hover,
 #mpd:hover {
-    background: rgba(26, 27, 38, 0.9);
+  background: #404040;
+  color: white;
 }
-
 
 #workspaces button {
   background: transparent;
@@ -80,26 +84,28 @@ window#waybar {
     SpaceMono Nerd Font,
     feather;
   font-weight: 900;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #c0caf5;
   border:none;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 #workspaces button.active {
-    background: #13131d; 
+  /*background: #1f1f1f; */
+  color: #1793d1;
+  font-size: 14pt;
 }
 
 #workspaces button:hover {
-  background: #11111b;
-  color: #cdd6f4;
+  background: #404040;
+  color: white;
   box-shadow: none;
 }
 
 #custom-arch {
-    margin-left: 5px;
+    margin-left: 0px;
     padding: 0 5px;
-    font-size: 15px;
+    font-size: 20px;
     transition: color .5s;
 }
 #custom-arch:hover {
