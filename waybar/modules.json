@@ -3,7 +3,7 @@
     "format": "󰣇",
     "tooltip": true,
     "tooltip-format": "btw",
-    "on-click": "kitty"
+    "on-click": "~/.config/hypr/scripts/dmenu-power-menu.sh"
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
