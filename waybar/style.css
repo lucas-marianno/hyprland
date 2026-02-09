@@ -1,12 +1,12 @@
 * {
     /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
     font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     transition: background-color .3s ease-out;
 }
 
 window#waybar {
-    background: #181818;
+    background: transparent;
     color: #c0caf5;
     font-family:
         SpaceMono Nerd Font,
@@ -18,16 +18,16 @@ window#waybar {
 .modules-center,
 .modules-right
 {
-    background: #282828;
-    margin: 3px 10px;
-    padding: 0 5px;
+    background: transparent;
+    margin: 0px 8px;
+    padding: 0px 5px;
     border-radius: 6px;
 }
 .modules-left {
     padding: 0 10px;
 }
 .modules-center {
-    padding: 0 10px;
+    padding: 0 8px;
     background: transparent;
 }
 
@@ -50,9 +50,9 @@ window#waybar {
 #power-profiles-daemon,
 #language,
 #mpd {
-    padding: 0px 10px;
+    padding: 0px 8px;
     margin: 0px 0px;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 #clock:hover,
@@ -84,7 +84,7 @@ window#waybar {
     SpaceMono Nerd Font,
     feather;
   font-weight: 900;
-  font-size: 12pt;
+  font-size: 10pt;
   color: #c0caf5;
   border:none;
   border-radius: 0px;
@@ -93,7 +93,7 @@ window#waybar {
 #workspaces button.active {
   /*background: #1f1f1f; */
   color: #1793d1;
-  font-size: 14pt;
+  font-size: 10pt;
 }
 
 #workspaces button:hover {
@@ -105,7 +105,7 @@ window#waybar {
 #custom-arch {
     margin-left: 0px;
     padding: 0 5px;
-    font-size: 20px;
+    font-size: 14px;
     transition: color .5s;
 }
 #custom-arch:hover {

@@ -52,7 +52,7 @@
   },
   "bluetooth": {
     "format": "",
-    "format-disabled": " !", // an empty format will hide the module
+    "format-disabled": " !",
     "format-connected": " {num_connections}",
     "tooltip-format": " {status}\n{num_connections} connections\n{device_alias}",
     "tooltip-format-connected": " {device_enumerate}",
@@ -99,5 +99,4 @@
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}"
   }
-
 }
