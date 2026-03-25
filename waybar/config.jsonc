@@ -15,6 +15,7 @@
     "hyprland/window"
   ],
   "modules-right": [
+    "keyboard-state",
     //"idle_inhibitor",
     "pulseaudio",
     //"temperature",
